@@ -4,4 +4,5 @@
 -- | 302750   |
 -- +----------+
 
-
+select count(id) as total_reviews
+FROM reviews
